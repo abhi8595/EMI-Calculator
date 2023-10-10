@@ -1,0 +1,55 @@
+.con1{
+    display: flex;
+    justify-content: center;
+}
+.con2{
+    border:2px solid lightgray;
+    list-style: none;
+    border-radius:10px;
+    text-align: center;
+     margin-top: 2;
+    height: fit-content;
+    width:300px ;
+   
+} label{
+font-weight:600;
+font-size: 17px;
+}
+#txtamount,#txtyear,#txtrate{
+    border-radius: 10px;
+    height: 24px;
+    border: 2px solid lavender;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    width: 169px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+border-radius: 18px ;
+border: 2px solid lavender;
+padding: 11px;
+font-size: 18px;
+width: 110px;
+font-weight: 600;
+background-color: blue;
+color: white;
+}
+.con3{
+padding: 14px;
+font-weight: bold;
+text-align: center;
+font-size: larger;
+
+}
+#total{
+margin-top: 2px;
+
+}
+.con4{
+padding: 2px;
+font-size: large;
+color: darkcyan;
+}

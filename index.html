@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        EMI Calculator
+    </title>
+ <link rel="stylesheet" href="style.css">    
+
+</head>
+<body>
+    <div class="con1">
+        <div>
+        <div class="con2">
+        <h2>EMI-CALCULATOR</h2>
+        <li>
+            <label >
+             Enter Amount :
+            </label><br>
+            <input type="text" id="txtamount">
+            </li>
+        <li>
+            <label class="head">
+                years :
+            </label><br>
+            <input type="text" id="txtyear">
+        </li>    
+        <li>
+            <label class="head">
+                Interest rate :
+            </label><br>
+            <input type="text" id="txtrate">
+        </li><br>
+        <button onclick="interest()" class="button" >Calculate</button>
+        
+       <div class="con3">
+       Monthly Emi : </div>
+       <div class="con4">
+       <span id="total"></span>
+       </div>
+     </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
